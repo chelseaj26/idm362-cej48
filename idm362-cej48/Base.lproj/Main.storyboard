@@ -27,12 +27,22 @@
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="B4z-un-BWs">
+                                <rect key="frame" x="20" y="190" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ydo-EM-Dmr" secondAttribute="trailing" constant="20" id="2NO-7S-cdM"/>
                             <constraint firstItem="ydo-EM-Dmr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7mX-C8-9dq"/>
+                            <constraint firstItem="B4z-un-BWs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HTk-gC-iCr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="B4z-un-BWs" secondAttribute="trailing" symbolic="YES" id="OGO-Zt-mrZ"/>
+                            <constraint firstItem="B4z-un-BWs" firstAttribute="top" secondItem="ydo-EM-Dmr" secondAttribute="bottom" constant="20" id="d1M-ji-tFP"/>
+                            <constraint firstItem="B4z-un-BWs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dbn-Vz-Bxa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B4z-un-BWs" secondAttribute="trailing" constant="20" id="rWK-RK-fQ6"/>
                             <constraint firstItem="ydo-EM-Dmr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="vIw-fw-CYi"/>
                         </constraints>
                     </view>
