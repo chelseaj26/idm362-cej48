@@ -16,21 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydo-EM-Dmr">
-                                <rect key="frame" x="20" y="20" width="335" height="198"/>
-                                <color key="backgroundColor" red="1" green="0.5024329173825044" blue="0.70420741657219366" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="B4z-un-BWs">
-                                <rect key="frame" x="20" y="261" width="335" height="34"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <color key="textColor" red="1" green="0.50243291739999996" blue="0.70420741659999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avR-f1-DCb">
                                 <rect key="frame" x="168" y="599" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
@@ -53,16 +38,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="B4z-un-BWs">
+                                <rect key="frame" x="16" y="263" width="335" height="34"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="textColor" red="1" green="0.50243291739999996" blue="0.70420741659999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ydo-EM-Dmr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3SV-wT-fc2"/>
-                            <constraint firstItem="B4z-un-BWs" firstAttribute="top" secondItem="ydo-EM-Dmr" secondAttribute="bottom" constant="43" id="5NI-r0-WcF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B4z-un-BWs" secondAttribute="trailing" constant="20" id="9uk-sg-L4k"/>
                             <constraint firstItem="Kdc-bZ-RAr" firstAttribute="top" secondItem="B4z-un-BWs" secondAttribute="bottom" constant="36" id="H2p-b3-xeW"/>
                             <constraint firstItem="eCk-EV-yYw" firstAttribute="top" secondItem="Kdc-bZ-RAr" secondAttribute="bottom" constant="58" id="J6e-7G-e2z"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ydo-EM-Dmr" secondAttribute="trailing" constant="20" id="JvN-Ft-Rw9"/>
                             <constraint firstItem="Kdc-bZ-RAr" firstAttribute="centerX" secondItem="avR-f1-DCb" secondAttribute="centerX" id="L1O-JU-uFA"/>
                             <constraint firstItem="avR-f1-DCb" firstAttribute="top" secondItem="Kdc-bZ-RAr" secondAttribute="bottom" constant="237" id="PmY-Pi-A6c"/>
                             <constraint firstItem="Jdc-uP-ziq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QUT-R6-KGK"/>
@@ -73,7 +62,6 @@
                             <constraint firstItem="Jdc-uP-ziq" firstAttribute="top" secondItem="Kdc-bZ-RAr" secondAttribute="bottom" constant="63" id="lNL-63-1Iu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eCk-EV-yYw" secondAttribute="trailing" constant="20" id="oI9-uE-Tpb"/>
                             <constraint firstItem="Kdc-bZ-RAr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qgB-dC-G2z"/>
-                            <constraint firstItem="ydo-EM-Dmr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rME-63-Slh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eCk-EV-yYw" secondAttribute="bottom" constant="216" id="wHd-aa-OAR"/>
                             <constraint firstItem="eCk-EV-yYw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jdc-uP-ziq" secondAttribute="trailing" constant="8" symbolic="YES" id="z79-sy-Km2"/>
                         </constraints>
