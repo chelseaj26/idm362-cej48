@@ -13,7 +13,6 @@
         <!--View Controller-->
         <scene sceneID="NvF-Rv-G4U">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nhs-N1-U8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="74a-EC-0eD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Mi-Dq-9U8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
@@ -71,6 +70,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="h9m-E3-fBI"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhs-N1-U8a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-252" y="281.10944527736132"/>
         </scene>
