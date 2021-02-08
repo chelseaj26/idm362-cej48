@@ -102,7 +102,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8fP-74-LgC"/>
-                        <color key="backgroundColor" red="0.89852733620046499" green="1" blue="0.83415810749203434" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.21216487880000001" green="0.13213458659999999" blue="0.58829480410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="8fP-74-LgC" firstAttribute="trailing" secondItem="3G0-vn-FH8" secondAttribute="trailing" constant="83" id="0Q9-4A-zKs"/>
                             <constraint firstItem="3G0-vn-FH8" firstAttribute="top" secondItem="Akv-MQ-9jj" secondAttribute="bottom" constant="45.5" id="2ie-vC-G4t"/>
