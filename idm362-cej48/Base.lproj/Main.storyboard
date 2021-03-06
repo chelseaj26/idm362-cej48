@@ -93,6 +93,11 @@
                                 <rect key="frame" x="334" y="458" width="51" height="31"/>
                                 <color key="onTintColor" red="0.21216487880000001" green="0.13213458659999999" blue="0.58829480410000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </switch>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLK-w6-iqV">
+                                <rect key="frame" x="0.0" y="-17" width="414" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CVY-Bw-gop"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -158,7 +163,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gac-0e-f2V" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14W-fr-UMV">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14W-fr-UMV">
                                                 <rect key="frame" x="8" y="8" width="398" height="36"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -229,21 +234,26 @@
                                                     <constraint firstAttribute="height" constant="416" id="gAq-vb-xR4"/>
                                                 </constraints>
                                             </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PPw-ZF-4E2">
+                                                <rect key="frame" x="0.0" y="-20" width="414" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JoS-c4-i0x" secondAttribute="trailing" constant="20" symbolic="YES" id="16M-4B-GWy"/>
-                                            <constraint firstItem="JoS-c4-i0x" firstAttribute="leading" secondItem="14W-fr-UMV" secondAttribute="leading" id="3iN-aL-Vg7"/>
                                             <constraint firstItem="WUT-oJ-hZq" firstAttribute="top" secondItem="Gac-0e-f2V" secondAttribute="top" id="4sP-XH-p7l"/>
+                                            <constraint firstItem="14W-fr-UMV" firstAttribute="leading" secondItem="JoS-c4-i0x" secondAttribute="leading" id="BpG-cf-jdg"/>
                                             <constraint firstItem="0iQ-KT-Zlf" firstAttribute="leading" secondItem="Gac-0e-f2V" secondAttribute="leading" id="EfZ-eX-pgd"/>
                                             <constraint firstAttribute="height" constant="1200" id="INp-bB-kIj"/>
                                             <constraint firstItem="JoS-c4-i0x" firstAttribute="top" secondItem="WUT-oJ-hZq" secondAttribute="bottom" constant="30" id="V6E-it-SHR"/>
+                                            <constraint firstItem="14W-fr-UMV" firstAttribute="leading" secondItem="Gac-0e-f2V" secondAttribute="leadingMargin" id="XEX-ld-imD"/>
+                                            <constraint firstItem="14W-fr-UMV" firstAttribute="top" secondItem="Gac-0e-f2V" secondAttribute="topMargin" id="eDg-3n-3cR"/>
                                             <constraint firstItem="0iQ-KT-Zlf" firstAttribute="top" secondItem="JoS-c4-i0x" secondAttribute="bottom" constant="19" id="gkx-P9-7nf"/>
+                                            <constraint firstItem="14W-fr-UMV" firstAttribute="centerX" secondItem="WUT-oJ-hZq" secondAttribute="centerX" id="gzl-s2-TJF"/>
                                             <constraint firstItem="0iQ-KT-Zlf" firstAttribute="centerX" secondItem="WUT-oJ-hZq" secondAttribute="centerX" id="jE9-mt-C8o"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14W-fr-UMV" secondAttribute="trailing" constant="8" id="jfy-XT-n21"/>
-                                            <constraint firstItem="14W-fr-UMV" firstAttribute="top" secondItem="Gac-0e-f2V" secondAttribute="topMargin" id="mX4-Bn-K8a"/>
                                             <constraint firstItem="WUT-oJ-hZq" firstAttribute="centerX" secondItem="Gac-0e-f2V" secondAttribute="centerX" id="o6Z-Xf-IcG"/>
-                                            <constraint firstItem="14W-fr-UMV" firstAttribute="leading" secondItem="Gac-0e-f2V" secondAttribute="leadingMargin" id="yrp-gu-a6c"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -324,6 +334,11 @@ Keep a safe distance -CDC</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QGw-4y-q3H">
+                                <rect key="frame" x="0.0" y="-25" width="414" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Ry-GF-E8T"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
