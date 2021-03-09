@@ -14,6 +14,8 @@
 		8EDD3ED425BF98E30017980A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD3ED325BF98E30017980A /* Assets.xcassets */; };
 		8EDD3ED725BF98E30017980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD3ED525BF98E30017980A /* LaunchScreen.storyboard */; };
 		8EE8675825F7102400A6B737 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8675725F7102400A6B737 /* PlaceViewController.swift */; };
+		8EE8675B25F748EC00A6B737 /* ContactTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8675A25F748EC00A6B737 /* ContactTVC.swift */; };
+		8EE8676225F7523500A6B737 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8676125F7523500A6B737 /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8EDD3ED625BF98E30017980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDD3ED825BF98E30017980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE8675725F7102400A6B737 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		8EE8675A25F748EC00A6B737 /* ContactTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTVC.swift; sourceTree = "<group>"; };
+		8EE8676125F7523500A6B737 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		8EDD3EC925BF98E20017980A /* idm362-cej48 */ = {
 			isa = PBXGroup;
 			children = (
+				8EE8676125F7523500A6B737 /* ButtonViewController.swift */,
+				8EE8675A25F748EC00A6B737 /* ContactTVC.swift */,
 				8EDD3ECA25BF98E20017980A /* AppDelegate.swift */,
 				8EDD3ECC25BF98E20017980A /* SceneDelegate.swift */,
 				8EDD3ECE25BF98E20017980A /* ViewController.swift */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EE8675825F7102400A6B737 /* PlaceViewController.swift in Sources */,
+				8EE8675B25F748EC00A6B737 /* ContactTVC.swift in Sources */,
 				8EDD3ECF25BF98E20017980A /* ViewController.swift in Sources */,
 				8EDD3ECB25BF98E20017980A /* AppDelegate.swift in Sources */,
+				8EE8676225F7523500A6B737 /* ButtonViewController.swift in Sources */,
 				8EDD3ECD25BF98E20017980A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
